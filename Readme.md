@@ -7,3 +7,4 @@ If I encounter a space, I just ignore it. It’s used to separate presses on the
 I’ve also added test cases inside the Main method. These include both given test cases and some of my own custom ones to verify that the logic handles edge cases like backspacing, spaces, and different key combinations. The custom ones spell out words like “IRON SOFTWARE” and “AHMAD SOHAIL” using the correct digit sequences. The result gets built using a StringBuilder, and overall, this approach ensures that we translate keypress sequences properly.
 
 One important thing to note is that what if the user presses 2 more than 3 times without a pause? Would it cycle back to 'A'? This was not addressed in the solution, but a question I had of my own.
+[24th July, RESOLVED]
